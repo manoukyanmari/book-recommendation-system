@@ -1,0 +1,80 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Jupyter / IPython
+# =========================
+.ipynb_checkpoints/
+.profile_default/
+
+# =========================
+# Data / Models / Outputs
+# =========================
+data/
+datasets/
+models/
+checkpoints/
+outputs/
+results/
+
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# Large data files (optional – remove if needed)
+*.csv
+*.tsv
+*.xlsx
+
+# =========================
+# Logs / Temp
+# =========================
+logs/
+*.log
+tmp/
+temp/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+
+# =========================
+# Build / Cache
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+.cache/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+
+# =========================
+# Git
+# =========================
+*.orig
+*.rej
