@@ -1,7 +1,7 @@
 
 # Company A's Book Genre & Language Enrichment Pipeline
 
-This project processes book sales data, detects languages, assigns genres using Open Library and AI classification, and generates an enriched CSV file with analytical summaries.
+This project processes book checkout data, detects languages, assigns genres using Open Library and AI classification, and generates an enriched CSV file with analytical summaries.
 
 The pipeline is optimized with caching, parallel requests, and batch inference for performance and stability in large datasets.
 
@@ -12,7 +12,7 @@ The pipeline is optimized with caching, parallel requests, and batch inference f
 For each book title, the system:
 
 - Deduplicates repeated titles
-- Aggregates sales volume
+- Aggregates checkout frequency
 - Detects language
 - Retrieves subject metadata from Open Library
 - Maps subjects to predefined genres
@@ -30,7 +30,7 @@ For each book title, the system:
 - Automatic retries for network failures
 - Batch AI classification
 - Parallel metadata fetching
-- Sales-weighted genre analytics
+- Checkout-frequency-weighted genre analytics
 - Robust CSV parsing
 
 ---
@@ -42,7 +42,7 @@ For each book title, the system:
 | Column | Description              |
 |--------|--------------------------|
 | Title  | Book title               |
-| Number | Sales count (SalesCount) |
+| Number | Checkout count (frequency) |
 
 ---
 

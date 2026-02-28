@@ -30,7 +30,7 @@ Required columns:
 | Book Names | Raw book title string |
 
 **How `Number` is computed:**  
-`Number` is derived by counting how many rows each title appears in (frequency / sales count proxy).
+`Number` is derived by counting how many rows (transactions/checkouts) each title appears in.
 
 ---
 
