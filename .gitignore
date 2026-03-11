@@ -20,6 +20,12 @@ ENV/
 .profile_default/
 
 # =========================
+# Backup Files
+# =========================
+*.bak
+*.backup
+
+# =========================
 # Data / Models / Outputs
 # =========================
 data/
@@ -37,7 +43,6 @@ results/
 *.onnx
 
 # Large data files (optional – remove if needed)
-*.csv
 *.tsv
 *.xlsx
 
