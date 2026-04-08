@@ -186,7 +186,7 @@ This notebook loads `company_n_genres_output.csv` and produces plots and statist
 
 ---
 
-⚠️ Running the visualization before classification will result in errors.
+Running the visualization before classification will result in errors.
 
 ---
 
