@@ -1,0 +1,36 @@
+
+    TASTE-BASED NEURAL NETWORK SUMMARY
+    ================================
+    
+    Model Architecture:
+    - Input dimensions: 13
+    - Hidden layers: 64 → 32 → 8 (taste embedding) → 16
+    - Taste embedding dimensions: 8
+    - Output: Binary engagement prediction
+    - Framework: Scikit-Learn MLPClassifier with Adam optimizer
+    
+    Training Results:
+    - Final training accuracy: 1.0000
+    - Final validation accuracy: 1.0000
+    
+    Dataset:
+    - Total books analyzed: 667
+    - Books with checkouts: 666
+    - Books without checkouts: 1
+    
+    Taste Dimensions:
+      1. Complexity
+  2. Tone
+  3. Cultural_Fit
+  4. Narrative_Density
+  5. Language_Match
+  6. Topic_Specificity
+  7. Engagement_Appeal
+  8. Detail_Level
+    
+    Key Insights:
+    - Taste profiles capture intrinsic book characteristics
+    - Similar taste profiles indicate books likely to appeal to same readers
+    - Clustering reveals 5 distinct taste-based book groups
+    - Can be used for personalized recommendations
+    
