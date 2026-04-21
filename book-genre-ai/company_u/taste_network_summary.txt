@@ -3,7 +3,7 @@
     ================================
     
     Model Architecture:
-    - Input dimensions: 13
+    - Input dimensions: 12
     - Hidden layers: 64 → 32 → 8 (taste embedding) → 16
     - Taste embedding dimensions: 8
     - Output: Binary engagement prediction
