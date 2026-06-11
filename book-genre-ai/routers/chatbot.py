@@ -2,7 +2,7 @@
 import os
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
-from services.rag_service import RAGChatbotService
+from services.rag_service_v2 import RAGChatbotService
 
 # Create the FastAPI router instance
 router = APIRouter()

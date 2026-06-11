@@ -13,7 +13,7 @@ if project_dir not in sys.path:
 
 load_dotenv(os.path.join(base_dir, ".env"))
 
-from services.rag_service import RAGChatbotService
+from services.rag_service_v2 import RAGChatbotService
 
 strlt.set_page_config(page_title="Company RAG Chatbot", page_icon="📚", layout="centered")
 strlt.title("📚 Multi-Tenant Book Recommendation Assistant")
